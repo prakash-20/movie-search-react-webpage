@@ -19,38 +19,10 @@ function App() {
   ]);
   const [recentsearchitems, setReacentsearchItems] = useState([]);
   const [isAlphabet, setIsAlphabet] = useState(true);
-  const [isLoading, setIsLoading] = useState(true);
   const [isSearch, setIsSearch] = useState(false);
   const [isError, setIsError] = useState(false);
   const [movies, setMovies] = useState([]);
-  const Loader = () => (
-    <div className="divLoader">
-      <svg
-        className="svgLoader"
-        viewBox="0 0 100 100"
-        width="10em"
-        height="10em"
-      >
-        <path
-          stroke="none"
-          d="M10 50A40 40 0 0 0 90 50A40 42 0 0 1 10 50"
-          fill="#51CACC"
-          transform="rotate(179.719 50 51)"
-        >
-          <animateTransform
-            attributeName="transform"
-            type="rotate"
-            calcMode="linear"
-            values="0 50 51;360 50 51"
-            keyTimes="0;1"
-            dur="1s"
-            begin="0s"
-            repeatCount="indefinite"
-          ></animateTransform>
-        </path>
-      </svg>
-    </div>
-  );
+
   var res = "False";
   const getinfo = async (searchkey) => {
     const url = `https://www.omdbapi.com/?s=${searchkey}&apikey=4a3b711b`;
@@ -62,7 +34,6 @@ function App() {
       console.log(result);
       console.log(res);
     } else {
-      setIsLoading(false);
       setMovies(result.data.Search);
       console.log(result);
       console.log(res);
@@ -583,7 +554,6 @@ function App() {
         style={{ display: "none" }}
       >
         <div className="search__result">
-          {isLoading ? <Loader /> : null}
           {isError === true &&
             movies !== [] &&
             movies.map((movie) => {
