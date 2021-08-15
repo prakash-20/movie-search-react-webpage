@@ -1,0 +1,765 @@
+
+
+@media (max-width:1199px) {
+.search-results .item {
+    width:25%;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+
+.search-results {
+    margin-left: -10px;
+    margin-right: -10px;
+}	
+
+.search-results .item img {
+    border-radius:7.5px;
+}
+
+}
+
+
+
+@media (max-width:1024px) {
+	
+.nav-row {
+    padding: 15px 15px;
+}	
+
+	
+.heading-tv {
+    color: #fff;
+    font-size:16px;
+    padding:15px 0px 7.5px 5px;
+}
+
+.space-tv{
+	padding-left:7.5px;
+	padding-right:7.5px;
+	padding-bottom:15px;
+}
+
+.scroll-movies .item img{
+    border-radius: 7.5px;
+}
+
+.scroll-movies .item {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    width: 7.5px;
+    height: 7.5px;
+    margin: 5px 5px;
+ }
+ 
+ .owl-theme .owl-controls {
+    margin-top: -20px !important;
+	 right: 15px;
+}
+
+
+.tv-layout {
+    padding-bottom: 0px;
+}
+
+.tv-data-row {
+    padding: 60px 15px 0px 15px;
+}
+	
+}
+
+
+@media (max-width:1023px) {
+.login-box {
+    width: 500px;
+    margin: 0px auto;
+    padding-top: 80px;
+}	
+
+.price-block .sub-plan {
+    margin-bottom: 30px;
+}
+
+
+}
+
+
+@media (max-width:991px) {
+	
+.seach-item {
+    margin-bottom:10px;
+    float: left;
+	 margin-right:10px;
+	 width:auto;
+}	
+	
+	
+.recent-search {
+    padding-right:0px; 
+}	
+
+.key-board-box {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    position: relative;
+}
+.seach-box {
+    margin-bottom: 20px;
+}
+	
+}
+
+@media (max-width:799px) {
+.search-results .item {
+    width:33.33%;
+    padding: 0px 5px;
+    margin-bottom: 20px;
+}
+
+.search-results {
+    margin-left: -5px;
+    margin-right: -5px;
+}	
+
+.search-results .item img {
+    border-radius:7.5px;
+}
+
+}
+
+
+@media (max-width:767px) {
+	
+	.episode-head {
+    font-size:18px;
+}
+
+.key-board-row span {
+    margin-right: 7.5px;
+}
+
+.key-board-row span.search-btn {
+    width: 150px;
+
+}	
+
+.key-board-row span.space-clear {
+ width: 150px;
+}
+	
+	
+.search-data-box {
+    padding: 60px 15px 0px 15px;
+}	
+	
+.category-block .category-pan:nth-child(even){
+	padding-bottom:15px;
+	padding-left:7.5px;
+	padding-right:0px;
+}
+
+.category-block .category-pan:nth-child(ODD){
+padding-bottom:15px;
+	padding-left:0px;
+	padding-right:7.5px;
+}
+
+
+	
+.categories-box  img {
+	 border-radius:7.5px;
+}
+
+.categories-box::before{
+	 border-radius:7.5px;
+}
+
+.category-head {
+    font-size: 18px;
+}
+	
+.watch-row {
+    padding: 15px 15px;
+}
+	
+	.tv-data-row {
+    padding:60px 15px 0px 15px;
+}
+
+.price-block .sub-plan:nth-child(1),
+.price-block .sub-plan:nth-child(3){
+	padding-right:7.5px;
+	padding-left:0px;
+
+}
+
+.price-block .sub-plan:nth-child(2),
+.price-block .sub-plan:nth-child(4){
+	padding-left:7.5px;
+	padding-right:0px;
+
+}
+.price-block .sub-plan{
+margin-bottom:15px;
+}
+
+.mob-margin{
+	margin:0px;
+}
+
+.round-box.close-icon img {
+    margin: 7px;
+    height: 11px;
+}
+	
+	.nav ul li {
+    margin: 0px 10px 0px 0px;
+    line-height:25px;
+}
+	
+.nav-row {
+    position: relative;
+    padding: 10px 15px;
+    float: left;
+    width: 100%;
+}
+
+.nav {
+    margin-left:0px;
+}
+
+.nav ul li a {
+    font-size: 13px;
+    border-bottom: solid 1px transparent;
+	padding-bottom: 0px;
+}
+
+.nav ul li a.active {
+    border-bottom: solid 1px #e59114;
+}
+
+.round-box {
+    width: 25px;
+    height: 25px;
+}
+
+.nav-right ul li a {
+    padding-bottom: 2px;
+    font-size: 13px;
+    border-bottom: solid 1px transparent;
+}
+
+.nav-right ul li {
+    margin: 0px 0px 0px 15px;
+    line-height: 25px;
+}
+
+.search {
+    line-height: 25px;
+}
+.search i {
+    font-size: 13px;
+}
+	
+.heading-tv {
+    color: #fff;
+    font-size:14px;
+    padding:15px 0px 7.5px 5px;
+}
+
+.space-tv{
+	padding-left:7.5px;
+	padding-right:7.5px;
+	padding-bottom:7.5px;
+}
+
+.scroll-movies .item img {
+    border-radius: 7.5px;
+}
+
+.scroll-movies .item{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    width: 7.5px;
+    height: 7.5px;
+    margin: 5px 5px;
+ }
+ 
+ .owl-theme .owl-controls {
+    margin-top: -20px !important;
+}
+
+.tv-layout {
+    padding-bottom:0px;
+}
+
+.back-arrow img {
+    margin: 5px;
+}
+
+	
+}
+
+
+@media (max-width:599px) {
+
+.search-results {
+    margin-left: -5px;
+    margin-right: -5px;
+}	
+
+.search-results .item img {
+    border-radius:5px;
+}
+	
+.search-results .item {
+    width:50%;
+    padding: 0px 5px;
+    margin-bottom: 15px;
+}	
+	
+.scroll-movies .item img {
+    border-radius: 5px;
+}
+	
+
+.search-results .item img {
+    border-radius: 5px;
+}	
+	
+.key-board-row span.space-clear {
+    width: 24%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.key-board-row span.search-btn {
+ width: 25%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+}	
+	
+
+.key-board-row {
+    padding-bottom: 5px;
+}	
+	
+.key-board-row span {
+    margin-right:2.5px;
+}
+
+.key-board-row span.key {
+    width: 10%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.key-board-row span.arrow-change {
+    width:24%;
+    height:30px;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+
+.seach-box input {
+    font-size: 20px;
+    height: 30px;
+    padding-left: 40px;
+}
+
+.recent-search h1 {
+    font-size: 18px;
+    padding: 0px 0px 10px 0px;
+	font-weight:400;
+}
+
+.input-search img {
+    width: 18px;
+    height: 18px;
+    margin: 6px;
+}
+
+.input-search {
+    width: 30px;
+    height: 30px;
+}
+	
+.seach-item span {
+    padding: 7px;
+    font-size: 13px;
+}
+
+.seach-item span img {
+    width: 18px;
+    margin-right: 5px;
+}	
+
+.search-data-box {
+    padding: 60px 15px 0px 15px;
+}	
+	
+.category-block .category-pan:nth-child(even){
+	padding-bottom:15px;
+	padding-left:7.5px;
+	padding-right:0px;
+}
+
+.category-block .category-pan:nth-child(ODD){
+padding-bottom:15px;
+	padding-left:0px;
+	padding-right:7.5px;
+}
+
+
+	
+.categories-box  img {
+	 border-radius:5px;
+}
+
+.categories-box::before{
+	 border-radius:5px;
+}
+
+.category-head {
+    font-size: 18px;
+}
+	
+	
+	
+.nav-row {
+    padding: 10px 15px;
+}
+	
+	
+.login-box {
+    width: 85%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    float: left;
+    margin: 0px 7.5%;
+}
+
+.login-box .main {
+    width: 100%;
+}
+
+.mid_box_left {
+    padding: 20px;
+    width: 100%;
+}
+
+.socail_btn {
+     width: 100%;
+}
+
+.back-arrow img {
+    margin: 5px;
+}
+
+	
+}
+
+
+@media (max-width:450px) {
+	
+.search-data-box {
+    padding: 50px 7.5px 0px 7.5px;
+}
+
+.nav-row {
+    padding: 10px 7.5px;
+}
+
+.mid_box_left p {
+font-size:13px;
+}
+
+.socail_btn {
+    font-size: 14px;
+}
+	
+.field-mobile,
+.send-mobile{
+	display:block !important;
+}
+.send-mobile{
+	float:left;
+	width:100%;
+	margin-top:10px;
+}
+.mob-pad{
+	 padding:0px;
+ }
+ .verify_box {
+    margin-top: 50px;
+}
+
+.verify_btn {
+    width: 100%;
+}
+ 
+ .mob-pad .input-group{
+	width:100%;
+ }
+	
+	.mid_box_left h1 {
+    font-size: 24px;
+   }
+	
+	.tv-slide-nav ul li a img {
+    width: 17px;
+    margin-right: 5px;
+}
+
+.tv-slide-nav ul li a {
+    font-size: 13px;
+}
+	
+	
+.crew-item {
+    margin-right: 10px;
+    width: 110px;
+}
+
+.crew-item img {
+    width: 105px;
+    border: solid 2.5px #6445c0;
+   }	
+	
+.crew-item h5 {
+    font-size: 12px;
+}
+
+.crew-item p {
+    font-size: 10px;
+}
+
+.crew {
+    padding: 0px 0px;
+}
+
+.heading-movie {
+    font-size: 24px;
+    padding: 15px 0px 15px 0px;
+}
+
+.heading-movie span.language {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.crew h1 {
+    margin: 0px 0px 5px 0px;
+    font-size: 18px;
+}
+
+.movie-genre {
+    padding: 0px 0px;
+}	
+
+.movie-genre .movie-rating {
+   width:100%;
+    display: block;
+}
+.watch{
+	display:none;
+}
+
+.movie-text{
+	padding: 0px 0px;
+	font-size:13px;
+	margin:15px 0px;
+}
+
+.movie-genre span::after {
+
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.movie-genre span:nth-child(1)::after {
+    content: '';
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.owl-carousel .item p {
+    font-size: 12px;
+    font-weight: 400;
+}
+	
+.back-arrow img {
+    margin: 5px;
+}	
+
+.round-box.close-icon img {
+    margin:7px;
+	height:11px;
+}
+	
+.heading-tv {
+    color: #fff;
+    font-size:15px;
+    padding:15px 0px 5px 2.5px;
+}
+
+.space-tv{
+	padding-left:5px;
+	padding-right:5px;
+	padding-bottom:5px;
+}
+
+.scroll-movies .item img{
+    border-radius: 5px;
+}
+
+.scroll-movies .item{
+    margin-right: 2.5px;
+    margin-left: 2.5px;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    width: 5px;
+    height: 5px;
+    margin: 5px 5px;
+ }
+ 
+ .owl-theme .owl-controls {
+    margin-top: -20px !important;
+}
+
+.tv-layout {
+    padding-bottom: 0px;
+}
+
+.watch-row {
+    padding: 0px 0px;
+    top: 45px;
+}
+
+.play-video {
+    text-align: center;
+	height:100%;
+}
+
+
+
+.play-video img {
+    height: 30px;
+    margin-right: 0px;
+    vertical-align: middle;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -15px;
+    margin-top: -15px;
+}
+
+.close-video {
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    top: 5px;
+    right: 5px;
+}
+
+
+.tv-data-row {
+    padding: 40px 7.5px 0px 7.5px;
+}
+
+.sub-plan{
+	padding:0px;
+}
+
+
+.price-box h1 {
+    padding: 10px;
+	    font-size: 16px;
+}
+
+.price-box h4 {
+    padding: 30px 10px 20px 10px;
+    font-size: 30px;
+}
+
+.price-box h4 i {
+    font-size: 26px;
+}
+
+.price-box p {
+    padding: 20px 10px 30px 10px;
+}
+
+.subscribe-btn {
+    font-size: 13px;
+    padding: 12.5px 15px;
+}
+
+
+.mob-margin{
+	margin:0px;
+}
+
+.price-block .sub-plan:nth-child(1),
+.price-block .sub-plan:nth-child(3){
+	padding-right:3.75px;
+
+}
+
+.price-block .sub-plan:nth-child(2),
+.price-block .sub-plan:nth-child(4){
+	padding-left:3.75px;
+
+}
+
+.price-block .sub-plan{
+	margin-bottom:7.5px;
+}
+
+}
+
+
+@media (max-width:449px) {
+.search-results .item {
+    width:50%;
+    padding: 0px 2.5px;
+    margin-bottom: 15px;
+}
+
+.search-results {
+    margin-left: -2.5px;
+    margin-right: -2.5px;
+}	
+
+.search-results .item img {
+    border-radius:5px;
+}
+
+.episode-head {
+    font-size: 15px;
+    position: absolute;
+    float: none;
+    right: 10px;
+    bottom: 10px;
+}
+
+.movie-text h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+}

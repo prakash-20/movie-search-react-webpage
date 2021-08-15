@@ -1,38 +1,460 @@
-.App {
-  text-align: center;
+body {
+  background: #3d1f98;
+  font-family: "Jost", sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.maincontainer {
+  display: grid;
+  width: 95%;
+  margin-right: 10px;
+  margin-left: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 1228px) and (min-width: 910px) {
+  .key button {
+    padding: 2px 4px;
+    font-size: 80%;
+    line-height: 1;
+    border-radius: 5px;
+    width: 35px;
+    height: 30px;
+    background: #210e5d;
+    border: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+  .key-board-row span.arrow-change {
+    color: #f3ad0b;
+    width: 80px;
+    height: 35px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .key-board-row span.space-clear {
+    color: #fff;
+    width: 90px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    background: #217bef;
+    cursor: pointer;
+  }
+  .space-clear button {
+    width: 90px;
+    height: 50px;
+    color: #fff;
+  }
+  .key-board-row span.search-btn {
+    color: #fff;
+    width: 113px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    background: #f3ad0b;
+    margin-right: 0px;
+    cursor: pointer;
+  }
+  .search-btn button {
+    width: 113px;
+    height: 50px;
+    color: #fff;
   }
 }
+@media (max-width: 460px) and (min-width: 1px) {
+  .key button {
+    padding: 1px 2px;
+    font-size: 80%;
+    line-height: 1;
+    border-radius: 2px;
+    width: 20px;
+    height: 30px;
+    background: #210e5d;
+    border: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+  .key-board-row span.arrow-change {
+    color: #f3ad0b;
+    width: 70px;
+    height: 35px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .key-board-row span.space-clear {
+    color: #fff;
+    width: 55px;
+    height: 40px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    background: #217bef;
+    cursor: pointer;
+  }
+  .space-clear button {
+    width: 55px;
+    height: 40px;
+    color: #fff;
+  }
+  .key-board-row span.search-btn {
+    color: #fff;
+    width: 80px;
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    background: #f3ad0b;
+    margin-right: 0px;
+    cursor: pointer;
+  }
+  .search-btn button {
+    width: 80px;
+    height: 50px;
+    color: #fff;
+  }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  .maincontainer {
+    width: 90%;
+  }
+  .subcontainer2 {
+    flex-direction: column;
+  }
+}
+@media (max-width: 912px) and (min-width: 460px) {
+  .key button {
+    padding: 2px 4px;
+    font-size: 80%;
+    line-height: 1;
+    border-radius: 5px;
+    width: 35px;
+    height: 30px;
+    background: #210e5d;
+    border: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+  .key-board-row span.arrow-change {
+    color: #f3ad0b;
+    width: 80px;
+    height: 35px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .key-board-row span.space-clear {
+    color: #fff;
+    width: 90px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    background: #217bef;
+    cursor: pointer;
+  }
+  .space-clear button {
+    width: 90px;
+    height: 50px;
+    color: #fff;
+  }
+  .key-board-row span.search-btn {
+    color: #fff;
+    width: 113px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    background: #f3ad0b;
+    margin-right: 0px;
+    cursor: pointer;
+  }
+  .search-btn button {
+    width: 113px;
+    height: 50px;
+    color: #fff;
+  }
+
+  .maincontainer {
+    width: 90%;
+  }
+  .subcontainer2 {
+    flex-direction: column;
+  }
+}
+@media (min-width: 1228px) and (max-width: 2000px) {
+  .key button {
+    padding: 4px 9px;
+    font-size: 100%;
+    line-height: 1.2;
+    border-radius: 5px;
+    width: 55px;
+    height: 40px;
+    background: #210e5d;
+    border: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+  .key-board-row span.arrow-change {
+    color: #f3ad0b;
+    width: 90px;
+    height: 45px;
+    line-height: 62px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .key-board-row span.space-clear {
+    color: #fff;
+    width: 153px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    background: #217bef;
+  }
+  .space-clear button {
+    width: 129px;
+    height: 50px;
+    color: #fff;
+  }
+  .key-board-row span.search-btn {
+    color: #fff;
+    width: 129px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    background: #f3ad0b;
+    margin-right: 0px;
+  }
+  .search-btn button {
+    width: 153px;
+    height: 50px;
+    color: #fff;
+  }
+}
+.nav-backclose {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+.round-box {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #7754ce;
+  display: inline-block;
+  display: flex;
+}
+#arrowicon img {
+  height: 15px;
+  margin: 7.5px;
+}
+#closeicon img {
+  height: 15px;
+  margin: 7.5px;
+}
+.search-box {
+  width: 100%;
+  display: block;
+  background: #644cad;
+  padding: 3px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+  margin: 5px;
+  margin: 5px 15px;
+}
+
+.search-input {
+  display: flex;
+  width: 100%;
+}
+.inputsearch {
+  width: 80%;
+  background: transparent;
+  border: none;
+  font-size: 22px;
+  font-weight: lighter;
+  color: #fff;
+  box-shadow: none;
+  height: 40px;
+  padding-left: 50px;
+  outline: none;
+}
+::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+.inputsearch input:hover {
+  background-color: black;
+}
+.searchicon img {
+  width: 30px;
+  height: 30px;
+  top: 2px;
+  left: 0px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+.subcontainer2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.key-board-box {
   display: flex;
   flex-direction: column;
+  align-items: baseline;
+  padding: 10px;
+}
+.key-board-row {
+  padding: 2px;
+}
+.key {
+  padding: 2px;
+  cursor: pointer;
+}
+
+.arrow-change {
+  background: #210e5d;
+  border: transparent;
+  cursor: pointer;
+}
+.searchitems {
+  width: 50%;
+  padding: 10px;
+}
+.searchitems > div {
+  display: inline-flex;
+  width: auto;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+.searchitems h3 {
+  font-size: 20px;
+  color: #f3ad0b;
+  margin: 0px;
+  padding: 0px 0px 20px 0px;
+}
+.search-item {
+  padding: 12.5px;
+  background: #644cad;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 16px;
+  display: inline-block;
+}
+.search-item span img {
+  width: 18px;
+  margin-right: 15px;
+}
+
+.key-board-row span:nth-last-child(1) {
+  margin-right: 0px;
+}
+.key-board-row span {
+  background: #210e5d;
+  float: left;
+  margin-right: 5px;
+}
+.key-board-row span.arrow-change img {
+  height: 27px;
+  margin-top: -3px;
+  background: transparent;
+  cursor: pointer;
+}
+.key-board-row span button {
+  background: transparent;
+  border: transparent;
+}
+.shownumbers button {
+  color: #f3ad0b;
+  font-size: larger;
+  cursor: pointer;
+}
+.show-alpabets button {
+  color: #f3ad0b;
+  font-size: larger;
+  cursor: pointer;
+}
+.search__result {
+  margin: 25px;
+  display: flex;
+  flex: 25%;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: baseline;
+  justify-content: center;
+}
+.movieTile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.movieTile__img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.movieTile__name {
+  max-width: 200px;
+  text-align: center;
+  margin: 12px 0px;
+  color: #fff;
+}
+.movieTile__name:hover {
+  color: #f3ad0b;
+}
+.subcontainer3 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.backbtn {
+  display: flex;
+  flex-direction: column;
+}
+.backbtn button {
+  color: #fff;
+  width: 129px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 18px;
+  background: #f3ad0b;
+  margin-right: 0px;
+  cursor: pointer;
+}
+
+.svgLoader {
+  animation: spin 0.5s linear infinite;
+  margin: auto;
+}
+.divLoader {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  z-index: 9999;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
+@keyframes spin {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
   }
 }
